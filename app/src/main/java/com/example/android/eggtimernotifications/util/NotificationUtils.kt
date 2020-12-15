@@ -71,7 +71,7 @@ fun NotificationManager.sendNotification(messageBody: String, applicationContext
     // TODO: Step 1.13 set content intent
         .setContentIntent(contentPendingIntent)
         .setAutoCancel(true)
-    
+
         // TODO: Step 2.1 add style to builder
 
         // TODO: Step 2.3 add snooze action
@@ -83,3 +83,6 @@ fun NotificationManager.sendNotification(messageBody: String, applicationContext
 }
 
 // TODO: Step 1.14 Cancel all notifications
+fun NotificationManager.cancelNotifications() {
+    cancelAll()
+}
