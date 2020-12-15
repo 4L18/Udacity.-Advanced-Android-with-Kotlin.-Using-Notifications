@@ -64,7 +64,7 @@ class EggTimerFragment : Fragment() {
 
         // TODO: Step 3.4 call subscribe topics on start
         subscribeTopic()
-        
+
         return binding.root
     }
 
